@@ -1,0 +1,13 @@
+outages:
+  door_blocked:
+    experienceneeded: 5
+    startcommands:
+      - "/bigdoor 24 lock"
+      - "/broadcast Outage in Sector B - Door 24"
+    fixcommands:
+      - "/bigdoor unlock"
+  # Add more outages here
+
+messages:
+  fail: "❌ You need more experience to fix this outage!"
+  success: "✔ Outage fixed successfully!"

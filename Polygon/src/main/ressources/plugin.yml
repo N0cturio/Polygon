@@ -1,0 +1,17 @@
+name: Polygon
+main: triangle.Polygon
+version: 1.0
+api-version: 1.20
+commands:
+  roll:
+    description: Rolls a random number
+    usage: /roll <max>
+  outagefix:
+    description: Fix an outage
+    usage: /outagefix <outage_name>
+  reload:
+    description: Reload the plugin's configuration
+    usage: /reload
+  addoutage:
+    description: Add a new outage manually
+    usage: /addoutage <outage_name> <experience_needed> <start_command>
